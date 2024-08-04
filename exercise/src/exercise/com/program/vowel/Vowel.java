@@ -29,6 +29,15 @@ public class Vowel {
 	public static int vowelCheck(String str) {
 		int count=0;
 		str=str.toLowerCase();
+		/*toCharArray:convert string literal into character array.
+			eg:String="dhaya";
+				convert into->  d
+								h
+								a
+								y
+								a	
+								
+		*/
 		for(char ch:str.toCharArray()) {
 			if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u') {
 				count++;
