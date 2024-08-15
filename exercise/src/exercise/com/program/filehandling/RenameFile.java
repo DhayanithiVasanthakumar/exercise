@@ -20,6 +20,10 @@ public class RenameFile {
 			System.out.println("File name is same");
 		}
 		
+		//Read file name
+		File newName=new File("C:\\Users\\dhaya\\OneDrive\\Desktop\\FileHandle\\subfolder\\changed file name.txt");
+		System.out.println("File name is :"+ newName.getName());
+		
 	}
 
 }
