@@ -1,7 +1,7 @@
 package exercise.com.program.filehandling;
 
 import java.io.File;
-
+//topic 6
 public class ReadSeperateFiles {
 	public static void main(String[]args) {
 		File file=new File("C:\\Users\\dhaya\\OneDrive\\Desktop");

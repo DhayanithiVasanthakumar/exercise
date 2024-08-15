@@ -1,7 +1,7 @@
 package exercise.com.program.filehandling;
 
 import java.io.File;
-
+//topic 3
 public class DeleteFile {
 
 	public static void main(String[] args) {
