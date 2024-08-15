@@ -13,12 +13,16 @@ public class CreateFile {
 		if(present ==false){
 			try {
 				//createNewFile() method used to create a file
+				
 				boolean created=file.createNewFile();
 				System.out.println("File created  "+created);
 			} 
 			catch (IOException e) {
 				e.printStackTrace();
 			}		
+		}
+		else {
+			System.out.println("file already in location");
 		}
 		
 
