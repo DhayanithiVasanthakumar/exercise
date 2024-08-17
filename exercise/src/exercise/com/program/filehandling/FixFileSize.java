@@ -22,7 +22,7 @@ public class FixFileSize {
 					System.out.println(filenames+"  "+" size is  "+f.length());
 				
 				
-				//to delete particular filesee in topic 3.
+				//to delete particular file see in topic 3.
 			}
 		}
 	}
