@@ -26,6 +26,9 @@ public class ReadWriteFile {
 			
 			//read a file
 			FileReader reader=new FileReader(file);
+			
+			/*
+			 * type 1 to read a file
 			//return type is int
 			int output=reader.read();
 			//yepa la file kula data iruko apa lam ula poogum
@@ -35,6 +38,20 @@ public class ReadWriteFile {
 				//print panathu adutha char ah print oanum
 				output=reader.read();
 
+			}
+			*/
+			
+			//type 2 to read a file
+			//length() is long but array size is int.so use type casting
+			char[] ch=new char[(int)file.length()];
+			//to count char in file
+			System.out.println(ch.length);
+			//.......................................
+			//count panathu la read pana read() use pananum
+			reader.read(ch);
+			//it is array so use for each to print all char in file
+			for(char ch1:ch) {
+				System.out.print(ch1);
 			}
 		} 
 		catch (IOException e) {
