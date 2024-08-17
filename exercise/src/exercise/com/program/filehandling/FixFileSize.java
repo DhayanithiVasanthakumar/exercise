@@ -22,6 +22,8 @@ public class FixFileSize {
 					System.out.println(filenames+"  "+" size is  "+f.length());
 				
 				
+				
+				
 				//to delete particular file see in topic 3.
 				
 			}
