@@ -31,6 +31,7 @@ public class ReadWriteFile {
 			 * type 1 to read a file
 			//return type is int
 			int output=reader.read();
+			
 			//yepa la file kula data iruko apa lam ula poogum
 			while(output!= -1) {
 				//use type casting to convert int to char
