@@ -45,6 +45,8 @@ public class ReadWriteBuffer {
 			int sentencecount=0;
 			//to count words
 			int wordCount=0;
+			//char count
+			int charCount=0;
 			
 			//filereader  la char read panu so !=-1 kuduthom 
 			//BufferedReaderla line ah read panum so !=null kuduthom 
@@ -58,6 +60,9 @@ public class ReadWriteBuffer {
 				wordCount=wordCount+word.length;
 				
 				System.out.println(line);
+				
+				//find char count
+				charCount=charCount+line.length();
 				
 				//to count line in file
 				countLine++;
@@ -74,6 +79,8 @@ public class ReadWriteBuffer {
 			System.out.println("Total sentence in file is :"+sentencecount);
 			//to word count
 			System.out.println("Total words in file is :"+wordCount);
+			//to char count
+			System.out.println("Total character in file is :"+charCount);
 
 			
 
