@@ -8,12 +8,15 @@ public class Main {
 		obj.fibonNumber(8);
 		*/
 		
-		//recursion
+		/*recursion
 		Fibonacci obj=new Fibonacci();
 		for(int i=0;i<=10;i++) {
 			System.out.println(obj.fibonNumber(i));
 		}
+		*/
 		
+		Fibonacci obj=new Fibonacci();
+		obj.fibonNumber(8);
 		
 	
 	}
