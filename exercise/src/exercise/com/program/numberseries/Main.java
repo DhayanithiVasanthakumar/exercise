@@ -14,7 +14,8 @@ public class Main {
 		//obj.reverseNumberCondition1(123456);
 		//obj.reverseNumberCondition2(123456);
 		//obj.reverseNumberCondition3(123456);
-		obj.countInputNumber(123456);
+		//obj.countInputNumber(123456);
+		obj.additionOfDigits(123456);
 		
 	}
 }

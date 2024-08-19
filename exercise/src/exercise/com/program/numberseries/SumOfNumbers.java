@@ -174,4 +174,18 @@ public class SumOfNumbers {
 		System.out.println("no of digits is "+count);
 	}
 	
+	public void additionOfDigits(int no) {
+		int count=0;
+		while(no>0) {
+			
+			count=count+(no%10);
+			
+			no=no/10;
+			
+			
+//			input:123456
+//			output:add of digits is 21 
+		}
+		System.out.println("add of digits is "+count);
+	}
 }
