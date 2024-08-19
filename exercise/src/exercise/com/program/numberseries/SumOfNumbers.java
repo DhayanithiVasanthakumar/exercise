@@ -1,4 +1,4 @@
-package exercise.com.program.sumofnumbers;
+package exercise.com.program.numberseries;
 
 public class SumOfNumbers {
 	public void sumOfNumbers(int num) {
@@ -94,5 +94,84 @@ public class SumOfNumbers {
 		System.out.println(total);
 	}
 	
+	public void reverseNumber(int no) {
+		/*
+		//last number
+		System.out.println("Last number   "+no1%10);
+		
+		//last ku munadi number
+		//ithu int so point la irukarathu varathu  eg:  input=1234  ->  123.4  -> 123 nu store agum
+		int no2=no1/10;
+		//inga  123 nu irukum.atha modulo panum pothu last value kadaikum
+		System.out.println("Last before "+no2%10);
+		
+		//last la iruhthu tird num venum na
+		int no3=no2/10;
+		System.out.println(no3%10);
+		
+		input:1234
+		output:4321
+		//etc...
+		 
+		 */
+		
+		//use while to simple this program
+		//ihtha naala variable oda  memory save aaguthu
+		//length kami aaguthu
+		//0 vara varaikum program brak pani run panum
+		while(no>0) {
+			System.out.println(no%10);
+			no=no/10;
+		}
+	}
+	
+	public void reverseNumberCondition1(int no) {
+		while(no>0) {
+			System.out.println(no%10);
+			//100
+			no=no/100;
+			
+//			input:123456
+//			output:642
+		}
+	}
+	
+	public void reverseNumberCondition2(int no) {
+		while(no>0) {
+			//100
+			System.out.println(no%100);
+			no=no/100;
+			
+//			input:123456
+//			output:56 34 12
+		}
+	}
+	
+	public void reverseNumberCondition3(int no) {
+		while(no>1) {
+			//100
+			System.out.println(no%100);
+			//10
+			no=no/10;
+			
+//			input:123456
+//			output:56 45 34 23 12 
+		}
+	}
+	
+	public void countInputNumber(int no) {
+		int count=0;
+		while(no>0) {
+			
+			count++;
+			
+			no=no/10;
+			
+			
+//			input:123456
+//			output:no of digits is 6
+		}
+		System.out.println("no of digits is "+count);
+	}
 	
 }
