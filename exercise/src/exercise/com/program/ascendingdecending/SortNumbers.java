@@ -6,7 +6,7 @@ public class SortNumbers {
 	
 	public void sortNumbers() {
 		
-		int[] num= {1,5,7};
+		int[] num= {1,5,7,11};
 		
 		//ascending order
 		Arrays.sort(num);
