@@ -2,7 +2,10 @@ package exercise.com.program.pattern;
 
 public class Main {
 	public static void main(String[]args) {
-		Pattern.printPattern(6);
+		Pattern obj=new Pattern();
+		obj.printPattern1(5);
+		//obj.printPattern2(5);
+		//obj.printPattern3(5);
 	}
 
 }

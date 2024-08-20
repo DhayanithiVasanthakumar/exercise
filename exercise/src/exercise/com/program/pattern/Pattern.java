@@ -1,10 +1,8 @@
 package exercise.com.program.pattern;
 
 public class Pattern {
-	public static void printPattern(int n){
-       int row,col;
-		/* 
-		 //star 1
+	public  void printPattern1(int n){
+       
         for (int row = 1; row <= n; row++) {
 
             for (int col = 1; col <= row; col++) {
@@ -14,15 +12,20 @@ public class Pattern {
             // printing new line for each row
             System.out.println();
         }
+	}
+        /*output
+         
+        *
+        **
+        ***
+        ****
+        *****
+        ******
         
-*
-**
-***
-****
-*****
-******
-        
-        //star 2
+        */
+	
+    	public  void printPattern2(int n){
+
 		for (int row = 6; row >= 1; row--) {
 
             for (int col = 1; col <= row; col++) {
@@ -31,33 +34,36 @@ public class Pattern {
 
             // printing new line for each row
             System.out.println();
-        }
-	
-		
-******
-*****
-****
-***
-**
-*
-*/
-		
-		//star 3
-		
-       for(row=0; row<n; row++){
-           for(col=2*(n-row); col>=0; col--){
-               System.out.print(" ");
-           }
-           for(col=0; col<=row; col++){
-               System.out.print("* ");
-           }
-    
-           System.out.println();
-       }
+        	}
+    	}
+	/*output
+	 * 
+	 ******
+	 *****
+	 ****
+	 ***
+	 **
+	 *
 
-    
+*/
+    	
+    	public  void printPattern3(int n){
 		
-		
-    }
+    		for(int row=0; row<n; row++){
+    			for(int col=2*(n-row); col>=0; col--){
+    				System.out.print(" ");
+    			}
+    			for(int col=0; col<=row; col++){
+    				System.out.print("* ");
+    			}
+    			System.out.println();
+    		}
+    	}
+    	
+    	
+    	public void printPattern4() {
+    		
+    		for(int row=)
+    	}
 
 }
