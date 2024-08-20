@@ -49,16 +49,10 @@ public class Pattern {
     	
     	public  void printPattern3(int n){
 		
-    		for(int row=0; row<n; row++){
-    			for(int col=2*(n-row); col>=0; col--){
-    				System.out.print(" ");
-    			}
-    			for(int col=0; col<=row; col++){
-    				System.out.print("* ");
-    			}
-    			System.out.println();
-    		}
+    		
     	}
+    	
+    	
     	
     	
     	public void printPattern4(int num) {
@@ -70,6 +64,13 @@ public class Pattern {
     			System.out.println();
     		}
     	}
+    	/*
+    	1
+    	22
+    	333
+    	4444
+    	55555
+	*/
     	
     	public void printPattern5(int num) {
     		
@@ -80,19 +81,13 @@ public class Pattern {
     			System.out.println();
     		}
     	}
-    	
-    	public void printPattern6(int num) {
-    		
-    		for(int row=1;row<=num;row++) {
-    			for(int col=1;col<=row;col++) {
-    				System.out.print(row);
-    			}
-    			System.out.println();
-    		}
-    	}
+    	/*
+    	1
+    	12
+    	123
+    	1234
+    	12345
+    	*/
     	
     	
-    	
-    	
-
 }
