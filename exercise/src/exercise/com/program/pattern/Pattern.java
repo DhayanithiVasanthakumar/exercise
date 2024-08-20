@@ -61,9 +61,38 @@ public class Pattern {
     	}
     	
     	
-    	public void printPattern4() {
+    	public void printPattern4(int num) {
     		
-    		for(int row=)
+    		for(int row=1;row<=num;row++) {
+    			for(int col=1;col<=row;col++) {
+    				System.out.print(row);
+    			}
+    			System.out.println();
+    		}
     	}
+    	
+    	public void printPattern5(int num) {
+    		
+    		for(int row=1;row<=num;row++) {
+    			for(int col=1;col<=row;col++) {
+    				System.out.print(col);
+    			}
+    			System.out.println();
+    		}
+    	}
+    	
+    	public void printPattern6(int num) {
+    		
+    		for(int row=1;row<=num;row++) {
+    			for(int col=1;col<=row;col++) {
+    				System.out.print(row);
+    			}
+    			System.out.println();
+    		}
+    	}
+    	
+    	
+    	
+    	
 
 }
