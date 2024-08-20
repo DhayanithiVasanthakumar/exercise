@@ -1,9 +1,9 @@
 package exercise.com.program.pattern;
 
 public class Pattern {
-	public  void printPattern1(int n){
+	public  void printPattern1(int num){
        
-        for (int row = 1; row <= n; row++) {
+        for (int row = 1; row <= num; row++) {
 
             for (int col = 1; col <= row; col++) {
                 System.out.print("*");
@@ -24,7 +24,7 @@ public class Pattern {
         
         */
 	
-    	public  void printPattern2(int n){
+    	public  void printPattern2(int num){
 
 		for (int row = 6; row >= 1; row--) {
 
@@ -47,15 +47,46 @@ public class Pattern {
 
 */
     	
-    	public  void printPattern3(int n){
+    	public  void printPattern3(int num){
 		
+    		for(int row=num;row>=1;row--) {
+    			for(int col=1;col<=row;col++) {
+    				System.out.print(row);
+    			}
+    			System.out.println();
+    		}
     		
     	}
+/*output
+55555
+4444
+333
+22
+1
+    	 
+*/
+    	
+    	public  void printPattern4(int num){
+    		
+    		for(int row=num;row>=1;row--) {
+    			for(int col=1;col<=row;col++) {
+    				System.out.print(col);
+    			}
+    			System.out.println();
+    		}
+    		
+    	}
+    	/*output
+    	12345
+    	1234
+    	123
+    	12
+    	1
+    	 */
     	
     	
     	
-    	
-    	public void printPattern4(int num) {
+    	public void printPattern5(int num) {
     		
     		for(int row=1;row<=num;row++) {
     			for(int col=1;col<=row;col++) {
@@ -72,7 +103,7 @@ public class Pattern {
     	55555
 	*/
     	
-    	public void printPattern5(int num) {
+    	public void printPattern6(int num) {
     		
     		for(int row=1;row<=num;row++) {
     			for(int col=1;col<=row;col++) {
@@ -88,6 +119,8 @@ public class Pattern {
     	1234
     	12345
     	*/
+    	
+    	
     	
     	
 }
