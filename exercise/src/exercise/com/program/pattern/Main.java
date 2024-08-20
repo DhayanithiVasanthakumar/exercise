@@ -6,9 +6,10 @@ public class Main {
 		//obj.printPattern1(5);
 		//obj.printPattern2(5);
 		//obj.printPattern3(5);
-		obj.printPattern4(5);
+		//obj.printPattern4(5);
 		//obj.printPattern5(5);
 		//obj.printPattern6(5);
+		obj.printPattern7(5);
 		
 	}
 
