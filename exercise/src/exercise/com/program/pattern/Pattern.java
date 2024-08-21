@@ -194,6 +194,7 @@ public class Pattern {
     			System.out.println();
     		}
     	}
+    	
     	/*
     	1
     	12
@@ -205,6 +206,16 @@ public class Pattern {
     	12
     	1
 		*/
+    	
+    	public void printPattern10(int num) {
+    		for(int row=1;row<=num;row++) {
+    			for(int col=num;col>row;col--) {
+    				System.out.print(col);
+    			}
+    			System.out.println();
+    		}
+    	}
+    	
     	
     	
 }
