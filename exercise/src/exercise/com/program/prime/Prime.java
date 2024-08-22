@@ -18,13 +18,6 @@ public class Prime {
 				System.out.println("it is prime");
 			  break;
 				
-				
-				
-				
-				
-				
-				
-				
 			}
 				
 			}
