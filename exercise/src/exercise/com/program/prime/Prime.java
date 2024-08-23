@@ -17,6 +17,8 @@ public class Prime {
 			if(prime==true) {
 				System.out.println("it is prime");
 			  break;
+			  
+			  
 				
 			}
 				
