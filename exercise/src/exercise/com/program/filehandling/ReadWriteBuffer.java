@@ -51,7 +51,7 @@ public class ReadWriteBuffer {
 			//filereader  la char read panu so !=-1 kuduthom 
 			//BufferedReaderla line ah read panum so !=null kuduthom 
 			while(line!=null) {
-				//to find sentence  .split() is one of the String class it used to split the given condition in below code condition is "[.]" fullstop
+				//to find sentence count:  .split() is one of the String class it used to split the given condition in below code condition is "[.]" fullstop
 				String[] sentence=line.split("[.]");
 				sentencecount=sentencecount+sentence.length;
 				
