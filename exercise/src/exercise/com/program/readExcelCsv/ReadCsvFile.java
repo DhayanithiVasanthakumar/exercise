@@ -40,6 +40,8 @@ public class ReadCsvFile implements ReadFile {
 					} catch (IOException e) {
 						e.printStackTrace();
 					}
+					
+					
 				}
 			}
 		}
