@@ -10,9 +10,7 @@ public class ReadExcelFile implements ReadFile {
 	
 
 	@Override
-	public void readFile(String url) throws Exception {
-		// TODO Auto-generated method stub
-		
+	public void readFile(String url) throws Exception {		
 		try {
 			File file=new File(url);
 			File[] readexcelFile=file.listFiles();
