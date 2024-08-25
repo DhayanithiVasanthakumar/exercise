@@ -24,6 +24,8 @@ public class ArrayListSorting {
 			System.out.println(s);
 		}
 		
+		
+		
 		Arrays.sort(str);
 		System.out.println("after sorting");
 		
