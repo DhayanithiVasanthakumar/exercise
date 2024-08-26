@@ -1,4 +1,4 @@
-package exercise.com.program.ascendingdecending;
+package com.program.ascendingdecending;
 
 import java.util.Arrays;
 

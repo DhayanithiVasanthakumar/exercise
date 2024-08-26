@@ -1,4 +1,4 @@
-package exercise.com.program.enumswitch;
+package com.program.enumswitch;
 
 public class Switch {
 	public static void switchSize(Size dosa) {

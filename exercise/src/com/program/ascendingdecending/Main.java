@@ -1,4 +1,4 @@
-package exercise.com.program.ascendingdecending;
+package com.program.ascendingdecending;
 
 public class Main {
 	public static void main(String[]args) {
