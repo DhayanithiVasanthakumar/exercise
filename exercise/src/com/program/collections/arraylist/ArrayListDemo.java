@@ -12,6 +12,8 @@ public class ArrayListDemo {
 		al.add('c');
 		al.add("dhaya");
 		al.add(true);
+		//to add specific index
+		al.add(3, "aswini");
 		//to print objects
 		System.out.println(al);
 		//to print arraylist  size
