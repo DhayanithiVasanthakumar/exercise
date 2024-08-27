@@ -8,7 +8,6 @@ public class Main {
 		try {
 			read.readFile("C:\\Users\\dhaya\\OneDrive\\Desktop\\FileHandle\\subfolder\\");
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

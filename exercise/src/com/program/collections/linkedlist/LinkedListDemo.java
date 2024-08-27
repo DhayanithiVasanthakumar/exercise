@@ -22,5 +22,5 @@ public class LinkedListDemo {
 		ll.clear();
 		System.out.println(ll);
 	}
-
+ 
 }

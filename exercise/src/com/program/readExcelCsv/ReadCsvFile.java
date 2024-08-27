@@ -23,9 +23,7 @@ public class ReadCsvFile implements ReadFile {
 				int lastdot = csvfile.lastIndexOf(".");
 
 				String extension = csvfile.substring(lastdot + 1);
-				StringBuilder sb = new StringBuilder();
-				sb.append("!23" + "123");
-
+				
 				if (extension.equals("csv")) {
 					System.out.println("File name is :" + csvfile);
 
