@@ -14,7 +14,7 @@ public class ReadWriteBuffer {
 		
 		try {
 			//bufferWriter use pana whenever run program it erase all data and create new file.
-			//so ithu fix pana append pananum ithu pana data change aagathu.
+			//so ithu fix pana append pananum ithu pana data um change aagathu.
 			//FileWriter fwriter=new FileWriter(file,true);
 			
 			FileWriter fwriter=new FileWriter(file);
@@ -85,6 +85,7 @@ public class ReadWriteBuffer {
 			
 
 		} catch (IOException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
