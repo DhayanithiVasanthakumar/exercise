@@ -60,6 +60,8 @@ public class ArrayListDemo {
 		
 		List al4=al3.subList(0, 3);
 		System.out.println("al4 list is "+al4);
+		
+		System.out.println();
 	}
 
 }
