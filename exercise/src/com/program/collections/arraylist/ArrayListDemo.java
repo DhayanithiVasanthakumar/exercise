@@ -10,6 +10,7 @@ public class ArrayListDemo {
 		ArrayList al=new ArrayList();
 		//in .add() parathesis all are objects not a primitive data types.all are non primitive
 		
+		
 		al.add(10);
 		al.add('c');
 		al.add("dhaya");
