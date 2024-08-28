@@ -7,12 +7,15 @@ public class StudentDetails {
 	private long phno;
 	private String email;
 	
+	//constructor
 	public StudentDetails(String stu_name,int stu_age,long stu_phno,String stu_email) {
 		this.name=stu_name;
 		this.age=stu_age;
 		this.phno=stu_phno;
 		this.email=stu_email;
 	}
+	
+	
 	//name
 	public String getName() {
 		return name;
