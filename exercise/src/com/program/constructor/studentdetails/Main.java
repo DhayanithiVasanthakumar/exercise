@@ -1,4 +1,4 @@
-package com.program.constructor;
+package com.program.constructor.studentdetails;
 
 public class Main {
 	public static void main(String[]args) {
