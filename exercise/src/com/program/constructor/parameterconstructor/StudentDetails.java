@@ -1,4 +1,4 @@
-package com.program.constructor.studentdetails;
+package com.program.constructor.parameterconstructor;
 
 public class StudentDetails {
 

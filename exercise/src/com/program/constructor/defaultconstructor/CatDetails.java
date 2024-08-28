@@ -1,4 +1,4 @@
-package com.program.constructor.catdetails;
+package com.program.constructor.defaultconstructor;
 
 /*
  * cat details

@@ -1,4 +1,4 @@
-package com.program.constructor.catdetails;
+package com.program.constructor.defaultconstructor;
 
 public class Main {
 	public static void main(String[]args) {
