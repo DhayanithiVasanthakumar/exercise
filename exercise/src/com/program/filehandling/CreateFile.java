@@ -24,8 +24,6 @@ public class CreateFile {
 		else {
 			System.out.println("file already in location");
 		}
-		
-
 	}
 
 }
