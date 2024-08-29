@@ -25,6 +25,7 @@ public class ToStringCompare {
 		Collections.sort(laptoplist, cd);
 		
 		System.out.println("After sort"+laptoplist);
+		
 	}
 	
 }
