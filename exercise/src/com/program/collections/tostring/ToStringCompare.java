@@ -25,6 +25,10 @@ public class ToStringCompare {
 		Collections.sort(laptoplist, cd);
 		System.out.println("After sort"+laptoplist);
 		
+		//reverse pananum na 
+		
+		Collections.reverse(laptoplist);
+		System.out.println("after reverse"+laptoplist);
 		
 	}
 	
