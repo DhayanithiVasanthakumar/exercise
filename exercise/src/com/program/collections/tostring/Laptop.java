@@ -1,4 +1,4 @@
-package com.program.collections.tostring_compare;
+package com.program.collections.tostring;
 
 public class Laptop {
 
