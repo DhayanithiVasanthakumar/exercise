@@ -22,7 +22,8 @@ public class ListIteratorDemo {
 		
 		while(li.hasNext()) {
 			if(li.next().equals(4)) {
-				li.set(44);;
+				//set used to set a object
+				li.set(44);
 			}
 		}
 		System.out.println("after :"+al);
