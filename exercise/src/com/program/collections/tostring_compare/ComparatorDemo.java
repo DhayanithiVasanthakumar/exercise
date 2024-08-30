@@ -15,9 +15,9 @@ public class ComparatorDemo implements Comparator{
 		Laptop l2=(Laptop)o2;
 		
 		if(l1.price<l2.price) 
-			return +1;
-		if(l1.price>l2.price)
 			return -1;
+		if(l1.price>l2.price)
+			return +1;
 	
 			return 0;
 		
