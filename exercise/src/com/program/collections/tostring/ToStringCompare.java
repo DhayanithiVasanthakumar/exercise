@@ -7,9 +7,9 @@ public class ToStringCompare {
 
 	public static void main(String[]args) {
 		//collection class
-		Laptop dell=new Laptop(72000, 16, false);
-		Laptop hp=new Laptop(55000,8,true);
-		Laptop asus=new Laptop(55000,12,false);
+		Laptop dell=new Laptop("g 15",72000, 16, false);
+		Laptop hp=new Laptop("pavilion",+55000,8,true);
+		Laptop asus=new Laptop("asus",+55000,12,false);
 		
 		ArrayList laptoplist=new ArrayList();
 		laptoplist.add(dell);
@@ -23,7 +23,6 @@ public class ToStringCompare {
 		//use Comparator for namaku yetha maari sort panikalam
 		ComparatorDemo cd=new ComparatorDemo();
 		Collections.sort(laptoplist, cd);
-		
 		System.out.println("After sort"+laptoplist);
 		
 		
