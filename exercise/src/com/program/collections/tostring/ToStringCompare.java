@@ -30,6 +30,7 @@ public class ToStringCompare {
 		Collections.reverse(laptoplist);
 		System.out.println("after reverse"+laptoplist);
 		
+		
 	}
 	
 }
