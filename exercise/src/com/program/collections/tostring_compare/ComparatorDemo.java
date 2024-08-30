@@ -16,9 +16,14 @@ public class ComparatorDemo implements Comparator{
 		
 		if(l1.price<l2.price) 
 			return -1;
-		if(l1.price>l2.price)
+		else if(l1.price>l2.price)
 			return +1;
-	
+		else
+			if(l1.ram<l2.ram)
+				return -1;
+			else if(l1.ram>l2.ram)
+				return +1;
+			else
 			return 0;
 		
 	}

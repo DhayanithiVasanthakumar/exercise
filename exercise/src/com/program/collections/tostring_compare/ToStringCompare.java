@@ -8,8 +8,8 @@ public class ToStringCompare {
 	public static void main(String[]args) {
 		//collection class
 		Laptop dell=new Laptop(72000, 16, false);
-		Laptop hp=new Laptop(65000,8,true);
-		Laptop asus=new Laptop(55000,8,false);
+		Laptop hp=new Laptop(55000,8,true);
+		Laptop asus=new Laptop(55000,12,false);
 		
 		ArrayList laptoplist=new ArrayList();
 		laptoplist.add(dell);
