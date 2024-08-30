@@ -3,7 +3,7 @@ package com.program.collections.cursors;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class ForEach {
+public class ForEach_iterator {
 
 	public static void main(String[] args) {
 		
