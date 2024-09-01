@@ -1,6 +1,7 @@
 package com.program.collections.set.linkedhashset;
 
 import java.util.LinkedHashSet;
+import java.util.LinkedList;
 
 public class LinkedHashSetDemo {
 	public static void main(String[]args) {
@@ -16,5 +17,20 @@ public class LinkedHashSetDemo {
 		
 		System.out.println(lhs); 
 		
+		//power of linkedhashset is ->  eg program:remove duplicate
+		
+		LinkedList ll=new LinkedList();
+		ll.add(10);
+		ll.add(20);
+		ll.add(30);
+		ll.add(10);
+		ll.add(40);
+		ll.add(20);
+		
+		System.out.println("before remove"+ll);
+		
+		
+		LinkedHashSet lhs2=new LinkedHashSet(ll);
+		System.out.println("after remove :"+lhs2);
 	}
 }
