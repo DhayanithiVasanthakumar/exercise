@@ -5,6 +5,7 @@ import java.util.LinkedList;
 
 public class LinkedHashSetDemo {
 	public static void main(String[]args) {
+		
 		LinkedHashSet lhs=new LinkedHashSet();
 		lhs.add(100);
 		lhs.add(46);
@@ -32,5 +33,16 @@ public class LinkedHashSetDemo {
 		
 		LinkedHashSet lhs2=new LinkedHashSet(ll);
 		System.out.println("after remove :"+lhs2);
+		
+		
+		//convert list,set... onto an array
+		Object[] ob=ll.toArray();
+		//array va print pana for each use panare
+		System.out.println("converted array :");
+		for(Object o:ob) {
+			System.out.println(o);
+		}
+		
 	}
+	
 }
