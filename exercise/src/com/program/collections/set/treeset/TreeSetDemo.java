@@ -27,8 +27,7 @@ public class TreeSetDemo {
 		ts.add(19);
 		ts.add(15);
 		ts.add(18);
-		
-		
+			
 		
 		System.out.println(ts);
 		*/
