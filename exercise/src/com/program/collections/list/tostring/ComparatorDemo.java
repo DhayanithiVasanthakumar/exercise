@@ -1,4 +1,4 @@
-package com.program.collections.tostring;
+package com.program.collections.list.tostring;
 
 import java.util.Comparator;
 
