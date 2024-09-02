@@ -36,6 +36,7 @@ public class HashMapDemo {
 		while(i.hasNext()) {
 			
 			System.out.println(i.next());
+			
 		}
 	}
 }
