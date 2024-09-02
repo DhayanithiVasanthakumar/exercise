@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Set;
 
 public class HashMapDemo {
-
+	
 	public static void main(String[] args) {
 		
 		HashMap hm=new HashMap();
@@ -13,7 +13,6 @@ public class HashMapDemo {
 		hm.put("dhaya",8);
 		hm.put("aswini", 21);
 		hm.put("naren", 98);
-		
 		
 		//display a entry
 		System.out.println("key + values are :"+hm);
