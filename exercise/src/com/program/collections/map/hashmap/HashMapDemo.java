@@ -2,6 +2,8 @@ package com.program.collections.map.hashmap;
 
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 import java.util.Set;
 
 public class HashMapDemo {
@@ -28,5 +30,12 @@ public class HashMapDemo {
 		//print entrys
 		Set en=hm.entrySet();
 		System.out.println("entries are :"+en);
+		
+		//thani thani ya print panum
+		Iterator i=en.iterator();
+		while(i.hasNext()) {
+			
+			System.out.println(i.next());
+		}
 	}
 }
