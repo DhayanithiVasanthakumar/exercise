@@ -34,15 +34,7 @@ public class HashMapDemo {
 		//thani thani ya print panum
 		Iterator i=en.iterator();
 		while(i.hasNext()) {
-			
-			
-			
-			
 			System.out.println(i.next());
-			
-			
-			
-			
 		}
 	}
 }
