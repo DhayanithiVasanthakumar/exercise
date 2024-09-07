@@ -1,10 +1,13 @@
 package com.program.collections.trickyprogrms.charcount;
 
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 public class CharCount {
 
 	public static void main(String[] args) {
+		
 		String s="malayalam";
 		
 		HashMap<Character,Integer> charcountmap=new HashMap();
@@ -27,5 +30,22 @@ public class CharCount {
 			}
 		}
 		System.out.println(charcountmap);
+		
+		
+		//count unique,count duplicate  
+		//entrySet()-> thani thani entry ah kudukum
+		//entrySet() return datatype is Set<Map.Entry<Character, Integer>>
+		Set<Map.Entry<Character, Integer>> se =charcountmap.entrySet();
+		
+		for(Map.Entry<Character, Integer> entry:se) {
+			
+			//duplicate
+			//if(entry.getValue()>1)
+			
+			//unique
+			if(entry.getValue()==1)
+			System.out.println(entry.getKey()+" : "+entry.getValue());
+		}
+		
 	}
 }
