@@ -31,11 +31,30 @@ public class HashMapDemo {
 		Set en=hm.entrySet();
 		System.out.println("entries are :"+en);
 		
-		//thani thani ya print panum
+		//entry ya thani thani obj ah  print panum
 		Iterator i=en.iterator();
+		/*
 		while(i.hasNext()) {
+			//next() it is a object ithu obj obj ah tha print panum
 			System.out.println(i.next());
-			
 		}
+		*/
+		
+		while(i.hasNext()) {
+			//next() ah Map.Entry object ah type cast pani key thaniya value thani ya  print pana mudiyum
+			Map.Entry me=(Map.Entry)i.next();
+			//System.out.println("keys are :"+ me.getKey()+",  values are :"+me.getValue());
+			
+			//to check obj
+			if(me.getKey().equals("dhaya")) {
+				//dhaya oda key value mattum print panum
+				//System.out.println(" values are :"+me.getValue());
+				
+				//antha value ku bathil ah vera set pananum na setValue()
+				me.setValue(10);
+			}
+			System.out.println(me);
+		}
+		
 	}
 }
