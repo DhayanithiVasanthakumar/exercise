@@ -16,7 +16,7 @@ public class PropertiesDemo {
 		FileInputStream fis=new FileInputStream("C:\\Users\\dhaya\\git\\exercise\\exercise\\src\\com\\program\\collections\\map\\properties\\test.properties");
 		p.load(fis);
 		System.out.println(p);
-			
+		 
 		String s=p.getProperty("dosa");
 		System.out.println(s);
 		
