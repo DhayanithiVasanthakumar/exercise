@@ -34,7 +34,7 @@ public class GenericsDemo {
 		ts.add(15);
 		ts.add(65);
 		//generics use panathu naala inga ye error show aagum
-		ts.add(1.2);
+		ts.add(1.2); 
 		System.out.println(ts);
 	}
 
