@@ -15,7 +15,6 @@ public class ListIteratorDemo {
 		al.add(4);
 		
 		
-		
 		System.out.println("before"+al);
 
 		ListIterator li=al.listIterator();
