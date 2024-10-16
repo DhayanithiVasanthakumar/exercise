@@ -9,7 +9,7 @@ public class Employee implements Contract1,Contract2 {
 
 	/*
 	 * default method(non static method) -> override panalam
-	 * static method tha override pana mudiyathu.
+	 * static method tha override pana mudiyathu
 	 */
 	@Override  
 	public void calculateSalary(int a, int b) {
