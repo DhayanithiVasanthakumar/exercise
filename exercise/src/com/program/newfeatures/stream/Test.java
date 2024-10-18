@@ -28,7 +28,6 @@ public class Test {
 		Arrays.stream(ar)
 		.sorted()
 		.forEach(System.out::println);
-
 		
 		
 	}
