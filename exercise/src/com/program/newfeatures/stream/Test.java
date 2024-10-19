@@ -13,6 +13,7 @@ public class Test {
 		 * both are same program
 		 */
 		
+		
 		/*
 		 * bad approch
 		
