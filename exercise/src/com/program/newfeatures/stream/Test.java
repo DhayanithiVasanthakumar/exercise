@@ -21,7 +21,7 @@ public class Test {
 		s2.forEach(no -> System.out.println(no));
 		
 		 */
-		
+	
 		
 		/*
 		 * good approch follow this type
