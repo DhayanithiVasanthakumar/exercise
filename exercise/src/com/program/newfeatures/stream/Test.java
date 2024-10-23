@@ -13,7 +13,7 @@ public class Test {
 		 * both are same program
 		 */
 		
-		/*
+		/* 
 		 * bad approch
 		
 		IntStream s=Arrays.stream(ar);
