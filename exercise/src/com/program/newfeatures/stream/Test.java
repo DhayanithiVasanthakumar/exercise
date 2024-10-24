@@ -22,6 +22,7 @@ public class Test {
 		
 		 */
 	
+		
 	
 		/*
 		 * good approch follow this type
