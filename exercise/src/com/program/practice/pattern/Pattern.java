@@ -217,5 +217,28 @@ public class Pattern {
     	}
     	
     	
+   
+    	/*
+    	 *	 5 
+			5 4 
+			5 4 3 
+			5 4 3 2 
+			5 4 3 2 1 
+    	 */
+
+    	public void printPattern11(int num) {
+
+    		for (int row = num; row >= 1; row--)
+            {
+                for (int col = num; col >= row; col--)
+                {
+                    System.out.print(col+" ");
+                }
+     
+                System.out.println();
+            }
+    	}
+
     	
 }
+
