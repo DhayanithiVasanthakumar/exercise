@@ -238,7 +238,28 @@ public class Pattern {
                 System.out.println();
             }
     	}
+    	
+    	
+    	/*
+    	 * 5 4 3 2 1 
+			5 4 3 2 
+			5 4 3 
+			5 4 
+			5 
+    	 * 
+    	 */
+    	public void printPattern12(int num) {
 
+    		for (int row = 1; row <= num; row++)
+            {
+                for (int col = num; col >= row; col--)
+                {
+                    System.out.print(col+" ");
+                }
+     
+                System.out.println();
+            }
+    	}
     	
 }
 
