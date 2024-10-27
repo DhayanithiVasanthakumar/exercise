@@ -261,5 +261,22 @@ public class Pattern {
             }
     	}
     	
+    	
+    	public void printPattern13(int num) {
+
+    	for (int row = 1; row <= num; row++)
+        {
+            for (int col = row; col >= 1; col--)
+            {
+                System.out.print(col+" ");
+            }
+ 
+            System.out.println();
+        }
+    	
+    	}
+    	
+ 
+    	
 }
 
