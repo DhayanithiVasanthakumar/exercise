@@ -323,5 +323,40 @@ public class Pattern {
             System.out.println();
         }
     	}
+    	
+    	
+    	
+    	/*
+    	 *     
+    	 *     
+        1 
+      1 2 
+    1 2 3 
+  1 2 3 4 
+1 2 3 4 5 
+    	 *     
+    	 */
+    	
+    	public void printPattern16(int rows) {
+
+    	 for (int i = 1; i <= rows; i++)
+         {
+             //Printing spaces at the beginning of each row
+  
+             for (int j = 2*rows-i; j > i; j--)
+             {
+                 System.out.print(" ");
+             }
+  
+             //Printing 1 to i value at the end of each row
+  
+             for (int j = 1; j <= i; j++)
+             {
+                 System.out.print(j+" ");
+             }
+  
+             System.out.println();
+         }
+    	}
 }
 
