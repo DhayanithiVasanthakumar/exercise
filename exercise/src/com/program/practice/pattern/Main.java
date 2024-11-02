@@ -19,7 +19,8 @@ public class Main {
 		//obj.printPattern15(5);
 		//obj.printPattern16(5);
 		//obj.printPattern17(5);
-		obj.printPattern18(5);
+		//obj.printPattern18(5);
+		obj.printPattern19(5);
 	}
 
 }
