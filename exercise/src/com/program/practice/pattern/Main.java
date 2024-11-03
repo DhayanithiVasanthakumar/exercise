@@ -20,7 +20,10 @@ public class Main {
 		//obj.printPattern16(5);
 		//obj.printPattern17(5);
 		//obj.printPattern18(5);
-		obj.printPattern19(5);
+		//obj.printPattern19(5);
+		obj.printPattern20(5);
+		
+		
 	}
 
 }
