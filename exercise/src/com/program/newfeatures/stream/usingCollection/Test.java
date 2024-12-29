@@ -34,10 +34,10 @@ public class Test {
 		  */
 		 
 		 List<String> s=new ArrayList<String>();
-		 s.add("abce");
-		 s.add("bvecd");
-		 s.add("newwjgfuj");
-		 s.add("defghkk");
+		 s.add("Dhaya");
+		 s.add("Aswini");
+		 s.add("Naren");
+		 s.add("Hari");
 		 
 		 s
 		 .stream()
@@ -49,6 +49,29 @@ public class Test {
 		// .sorted((elem1,elem2)->elem1.compareTo(elem2))//for ascending oder 
 		 .sorted((elem1,elem2)->elem2.compareTo(elem1))//for decending oder 
 
+		 .forEach(System.out::println);
+		 
+		 
+		 /*
+		  * using map intermediate operation
+		  */
+		 
+		 //number
+		 System.out.println("using map intermediate operation in number");
+		 
+		 l
+		 .stream()
+		 .map(no -> no/2)
+		 .forEach(System.out::println);
+		 
+		 
+		 
+		 // string 
+		 
+		 System.out.println("using map intermediate operation in String");
+		 s
+		 .stream()
+		 .map(name -> name +" B.E...,")
 		 .forEach(System.out::println);
 	}
 
