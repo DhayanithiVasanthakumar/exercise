@@ -1,4 +1,4 @@
-package com.program.multithreading;
+package com.program.multithreading.base;
 
 public class MainThread {
 
