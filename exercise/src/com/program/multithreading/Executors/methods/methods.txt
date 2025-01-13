@@ -4,3 +4,6 @@ awaitTermination()
 
 submit(Runnable task) ->: return null;
 submit(Callable task) ->: return Data;
+
+invokeAny() ->it return only one single data from list of callable object
+invokeAll() ->it return list of future object

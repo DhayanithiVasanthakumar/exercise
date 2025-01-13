@@ -1,5 +1,12 @@
 package com.program.multithreading.Executors.methods;
 
+/*
+ * execute()
+ * shutdown();
+ * awaitTermination()
+ * submit(new Runnable)
+ */
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
