@@ -11,6 +11,7 @@ public class UsingFixedThreadPool {
 		//first 3 thread st aagi finish aanathu appram tha next 3 st aagi finish aagum 
 		ExecutorService es=Executors.newFixedThreadPool(6);
 		
+		//inga i<6 ku meaning 6 task 
 		for(int i=0;i<6;i++) {
 			es.execute(new LoopTest());
 		}
