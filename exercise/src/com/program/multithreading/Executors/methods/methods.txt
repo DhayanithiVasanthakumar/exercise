@@ -3,3 +3,4 @@ shutDown() // shutting down after completion
 awaitTermination()
 
 submit(Runnable task) ->: return null;
+submit(Callable task) ->: return Data;
